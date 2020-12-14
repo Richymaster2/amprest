@@ -65800,7 +65800,7 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
  */
 
 
-__webpack_require__(/*! ./components/Example */ "./resources/js/components/Example.js");
+__webpack_require__(/*! ./components/Amprest */ "./resources/js/components/Amprest.js"); // require('./components/Amprest');
 
 /***/ }),
 
@@ -65849,9 +65849,9 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
-/***/ "./resources/js/components/Example.js":
+/***/ "./resources/js/components/Amprest.js":
 /*!********************************************!*\
-  !*** ./resources/js/components/Example.js ***!
+  !*** ./resources/js/components/Amprest.js ***!
   \********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -65862,30 +65862,33 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Tasks__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Tasks */ "./resources/js/components/Tasks.js");
 
 
 
-function Example() {
+
+function Amprest() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "row justify-content-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-md-8"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "card"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "card-header"
-  }, "Example Component"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "card-body"
-  }, "I'm an example component!")))));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Amprest Task Manager."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Tasks__WEBPACK_IMPORTED_MODULE_2__["default"], null));
 }
 
-/* harmony default export */ __webpack_exports__["default"] = (Example);
+/* harmony default export */ __webpack_exports__["default"] = (Amprest);
 
-if (document.getElementById('example')) {
-  react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Example, null), document.getElementById('example'));
+if (document.getElementById('amprest')) {
+  react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Amprest, null), document.getElementById('amprest'));
 }
+
+/***/ }),
+
+/***/ "./resources/js/components/Tasks.js":
+/*!******************************************!*\
+  !*** ./resources/js/components/Tasks.js ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\Users\\Richard\\Desktop\\Projects\\amprest\\resources\\js\\components\\Tasks.js: Unexpected keyword 'return' (8:2)\n\n\u001b[0m \u001b[90m  6 | \u001b[39m  \u001b[36mconst\u001b[39m \u001b[0m\n\u001b[0m \u001b[90m  7 | \u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  8 | \u001b[39m  \u001b[36mreturn\u001b[39m (\u001b[0m\n\u001b[0m \u001b[90m    | \u001b[39m  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  9 | \u001b[39m    \u001b[33m<\u001b[39m\u001b[33mTable\u001b[39m hover\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 10 | \u001b[39m      \u001b[33m<\u001b[39m\u001b[33mthead\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 11 | \u001b[39m        \u001b[33m<\u001b[39m\u001b[33mtr\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n    at Object._raise (C:\\Users\\Richard\\Desktop\\Projects\\amprest\\node_modules\\@babel\\parser\\lib\\index.js:748:17)\n    at Object.raiseWithData (C:\\Users\\Richard\\Desktop\\Projects\\amprest\\node_modules\\@babel\\parser\\lib\\index.js:741:17)\n    at Object.raise (C:\\Users\\Richard\\Desktop\\Projects\\amprest\\node_modules\\@babel\\parser\\lib\\index.js:735:17)\n    at Object.checkReservedWord (C:\\Users\\Richard\\Desktop\\Projects\\amprest\\node_modules\\@babel\\parser\\lib\\index.js:11378:12)\n    at Object.parseIdentifierName (C:\\Users\\Richard\\Desktop\\Projects\\amprest\\node_modules\\@babel\\parser\\lib\\index.js:11350:12)\n    at Object.parseIdentifier (C:\\Users\\Richard\\Desktop\\Projects\\amprest\\node_modules\\@babel\\parser\\lib\\index.js:11317:23)\n    at Object.parseBindingAtom (C:\\Users\\Richard\\Desktop\\Projects\\amprest\\node_modules\\@babel\\parser\\lib\\index.js:9495:17)\n    at Object.parseVarId (C:\\Users\\Richard\\Desktop\\Projects\\amprest\\node_modules\\@babel\\parser\\lib\\index.js:12363:20)\n    at Object.parseVar (C:\\Users\\Richard\\Desktop\\Projects\\amprest\\node_modules\\@babel\\parser\\lib\\index.js:12339:12)\n    at Object.parseVarStatement (C:\\Users\\Richard\\Desktop\\Projects\\amprest\\node_modules\\@babel\\parser\\lib\\index.js:12151:10)\n    at Object.parseStatementContent (C:\\Users\\Richard\\Desktop\\Projects\\amprest\\node_modules\\@babel\\parser\\lib\\index.js:11743:21)\n    at Object.parseStatement (C:\\Users\\Richard\\Desktop\\Projects\\amprest\\node_modules\\@babel\\parser\\lib\\index.js:11676:17)\n    at Object.parseBlockOrModuleBlockBody (C:\\Users\\Richard\\Desktop\\Projects\\amprest\\node_modules\\@babel\\parser\\lib\\index.js:12258:25)\n    at Object.parseBlockBody (C:\\Users\\Richard\\Desktop\\Projects\\amprest\\node_modules\\@babel\\parser\\lib\\index.js:12244:10)\n    at Object.parseBlock (C:\\Users\\Richard\\Desktop\\Projects\\amprest\\node_modules\\@babel\\parser\\lib\\index.js:12228:10)\n    at Object.parseFunctionBody (C:\\Users\\Richard\\Desktop\\Projects\\amprest\\node_modules\\@babel\\parser\\lib\\index.js:11221:24)\n    at Object.parseArrowExpression (C:\\Users\\Richard\\Desktop\\Projects\\amprest\\node_modules\\@babel\\parser\\lib\\index.js:11193:10)\n    at Object.parseParenAndDistinguishExpression (C:\\Users\\Richard\\Desktop\\Projects\\amprest\\node_modules\\@babel\\parser\\lib\\index.js:10766:12)\n    at Object.parseExprAtom (C:\\Users\\Richard\\Desktop\\Projects\\amprest\\node_modules\\@babel\\parser\\lib\\index.js:10470:21)\n    at Object.parseExprAtom (C:\\Users\\Richard\\Desktop\\Projects\\amprest\\node_modules\\@babel\\parser\\lib\\index.js:4763:20)\n    at Object.parseExprSubscripts (C:\\Users\\Richard\\Desktop\\Projects\\amprest\\node_modules\\@babel\\parser\\lib\\index.js:10150:23)\n    at Object.parseUpdate (C:\\Users\\Richard\\Desktop\\Projects\\amprest\\node_modules\\@babel\\parser\\lib\\index.js:10130:21)\n    at Object.parseMaybeUnary (C:\\Users\\Richard\\Desktop\\Projects\\amprest\\node_modules\\@babel\\parser\\lib\\index.js:10119:17)\n    at Object.parseExprOps (C:\\Users\\Richard\\Desktop\\Projects\\amprest\\node_modules\\@babel\\parser\\lib\\index.js:9989:23)\n    at Object.parseMaybeConditional (C:\\Users\\Richard\\Desktop\\Projects\\amprest\\node_modules\\@babel\\parser\\lib\\index.js:9963:23)\n    at Object.parseMaybeAssign (C:\\Users\\Richard\\Desktop\\Projects\\amprest\\node_modules\\@babel\\parser\\lib\\index.js:9926:21)\n    at C:\\Users\\Richard\\Desktop\\Projects\\amprest\\node_modules\\@babel\\parser\\lib\\index.js:9893:39\n    at Object.allowInAnd (C:\\Users\\Richard\\Desktop\\Projects\\amprest\\node_modules\\@babel\\parser\\lib\\index.js:11541:16)\n    at Object.parseMaybeAssignAllowIn (C:\\Users\\Richard\\Desktop\\Projects\\amprest\\node_modules\\@babel\\parser\\lib\\index.js:9893:17)\n    at Object.parseVar (C:\\Users\\Richard\\Desktop\\Projects\\amprest\\node_modules\\@babel\\parser\\lib\\index.js:12342:70)\n    at Object.parseVarStatement (C:\\Users\\Richard\\Desktop\\Projects\\amprest\\node_modules\\@babel\\parser\\lib\\index.js:12151:10)\n    at Object.parseStatementContent (C:\\Users\\Richard\\Desktop\\Projects\\amprest\\node_modules\\@babel\\parser\\lib\\index.js:11743:21)\n    at Object.parseStatement (C:\\Users\\Richard\\Desktop\\Projects\\amprest\\node_modules\\@babel\\parser\\lib\\index.js:11676:17)\n    at Object.parseBlockOrModuleBlockBody (C:\\Users\\Richard\\Desktop\\Projects\\amprest\\node_modules\\@babel\\parser\\lib\\index.js:12258:25)\n    at Object.parseBlockBody (C:\\Users\\Richard\\Desktop\\Projects\\amprest\\node_modules\\@babel\\parser\\lib\\index.js:12244:10)\n    at Object.parseTopLevel (C:\\Users\\Richard\\Desktop\\Projects\\amprest\\node_modules\\@babel\\parser\\lib\\index.js:11607:10)");
 
 /***/ }),
 
